@@ -1,0 +1,47 @@
+body {
+  font-family: arial;
+  background-color: #262626;
+  color: white;
+}
+
+.rock {
+  background-image: url( 'rock.png');
+  border-radius: 30%;
+  background-size: 100px 130px;
+  height: 134px;  
+  width: 104px;
+  border-color: white;
+  cursor: pointer;
+  background-color: #262626;
+}
+
+.paper {
+  background-image: url( 'paper.png');
+  border-radius: 30%;
+  background-size: 100px 130px;
+  height: 134px;  
+  width: 104px;
+  border-color: white;
+  cursor: pointer;
+  background-color: #262626;
+}
+
+.scissors {
+  background-image: url( 'scissors.png');
+  border-radius: 30%;
+  background-size: 100px 130px;
+  height: 134px;  
+  width: 104px;
+  border-color: white;
+  cursor: pointer;
+  background-color: #262626;
+
+}
+
+button {
+  margin: 10px;
+}
+
+.move-icon {
+  width: 60px;
+}
